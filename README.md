@@ -4,9 +4,11 @@
 Employee Tracker is a node.js application that use MySQL Workbench
 
 - [Description](#description)
-- [Connect to Database](#hconnect-to-database )
+- [Connect to Database](#connect-to-database )
 - [Installation](#installation)
 - [License](#license)
+- [Technologies Used](#technologies-used)
+- [Questions](#questions)
 - [Author Info](#author-info)
 
 ## Connect to Database 
@@ -33,16 +35,22 @@ npm install
 
 ```
 
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ### Screenshot - Showing Node command line interface
 - View departments, roles and employees.
 - Add departments, roles and employees.
 
 ![Employee Tracker](images/employeetracker1.png )
 
-![Employee Tracker](images/employeetracker.gif )
+![Employee Tracker](images/employeetracker1.gif )
 
 ## Technologies Used
 The following technologies and tools were used:
 - JavaScript
 - Node.js
 - MySQL Workbench
+
+## Questions
+For any other questions, please send me an email at: isasanyang1986@yahoo.co.uk.
