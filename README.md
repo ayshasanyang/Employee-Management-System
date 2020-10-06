@@ -41,10 +41,10 @@ npm install
 - View departments, roles and employees.
 - Add departments, roles and employees.
 
-![Employee Tracker](images/employeetracker1.png )
+
+![Employee Tracker](images/employeetracker.PNG )
 
 ![Employee Tracker](images/employeetracker1.gif )
-
 ## Technologies Used
 The following technologies and tools were used:
 - JavaScript
