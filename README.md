@@ -4,8 +4,15 @@
 Employee Tracker is a node.js application that use MySQL Workbench
 
 ## Installation
-npm packages
+```
+npm install
+   mysql
+   inquirer
+   figlet
+   console-table-printer
+   asciiart-logo
 
+```
 
 ### Screenshot - Showing Node command line interface
 - View departments, roles and employees.
