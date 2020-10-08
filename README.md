@@ -43,7 +43,6 @@ npm install
 - View departments, roles and employees.
 - Add departments, roles and employees.
 
-
 ![Employee Tracker](images/employeetracker.PNG )
 
 ![Employee Tracker](images/employeetracker1.gif )
@@ -54,4 +53,4 @@ The following technologies and tools were used:
 - MySQL Workbench
 
 ## Questions
-For any other questions, please send me an email at: isasanyang1986@yahoo.co.uk.
+For any other questions, please send me an email at: isasanyang1986@yahoo.co.uk
