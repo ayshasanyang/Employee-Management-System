@@ -40,8 +40,15 @@ npm install
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ### Screenshot - Showing Node command line interface
-- View departments, roles and employees.
-- Add departments, roles and employees.
+- View all departments
+- View all roles
+- View all employees
+- Add a department
+- Add a role
+- Add an employee
+- Update employee role
+- Delete department
+
 
 ![Employee Tracker](images/employeetracker.PNG )
 
