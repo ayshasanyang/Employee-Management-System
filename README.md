@@ -5,6 +5,7 @@
 - [Description](#description)
 - [Connect to Database](#connect-to-database )
 - [Installation](#installation)
+- [Usage](#usage)
 - [License](#license)
 - [Technologies Used](#technologies-used)
 - [Questions](#questions)
@@ -35,6 +36,11 @@ npm install
    asciiart-logo
 
 ```
+
+## Usage
+1. Open your terminal, run the command node app.js.
+1. Select from the menu to view, add, delete, or update from department, role, employee
+
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
