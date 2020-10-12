@@ -40,6 +40,7 @@ console.log(
           "Add a role",
           "Add an employee",
           "Update employee role",
+          "Delete department",
           "Exit"
         ]
       })
@@ -58,7 +59,11 @@ console.log(
             addEmployee();
         } else if (answer.action === 'Update employee role') {
             updateRole();
-        }
+
+        } else if (answer.action === 'Delete department') {
+            deleteDepartment();
+        } 
+        
         else if (answer.action === 'Exit') {
             connection.end();
         }
@@ -286,5 +291,25 @@ viewRoles = () => {
       })
     }
     )
+    }
+
+    function deleteDepartment() {
+      inquirer
+        .prompt({
+          name: "deleteDepartment",
+          type: "input",
+          message: "To REMOVE an department, enter the department id",
+    
+        })
+        .then(function (answer) {
+          console.log(answer);
+          var query = "DELETE FROM department WHERE ?";
+          var newId = Number(answer.deleteDepartment);
+          console.log(newId);
+          connection.query(query, { id: newId }, function (err, res) {
+            start();
+    
+          });
+        });
     }
 
