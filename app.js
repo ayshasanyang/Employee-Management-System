@@ -59,7 +59,6 @@ console.log(
             addEmployee();
         } else if (answer.action === 'Update employee role') {
             updateRole();
-
         } else if (answer.action === 'Delete department') {
             deleteDepartment();
         } 
@@ -293,6 +292,7 @@ viewRoles = () => {
     )
     }
 
+    // delete department 
     function deleteDepartment() {
       inquirer
         .prompt({
@@ -303,13 +303,11 @@ viewRoles = () => {
         })
         .then(function (answer) {
           console.log(answer);
-          var query = "DELETE FROM department WHERE ?";
-          var newId = Number(answer.deleteDepartment);
+          const query = "DELETE FROM department WHERE ?";
+          const newId = Number(answer.deleteDepartment);
           console.log(newId);
           connection.query(query, { id: newId }, function (err, res) {
             start();
-    
           });
         });
     }
-
