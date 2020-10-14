@@ -1,7 +1,7 @@
 # Employee-Management-System
 
-## Employee Tracker is a node.js application that uses MySQL Workbench
-
+ Employee Tracker is a node.js application that uses MySQL Workbench
+## Table of contents
 - [Description](#description)
 - [Connect to Database](#connect-to-database )
 - [Installation](#installation)
